@@ -43,6 +43,15 @@
                 android:layout_alignParentEnd="true"
                 android:src="@drawable/baseline_delete_24" />
 
+            <CheckBox
+                android:id="@+id/completedCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="60dp"
+                android:checked="false"
+                android:text="Completado"/>
+
         </RelativeLayout>
 
         <TextView
