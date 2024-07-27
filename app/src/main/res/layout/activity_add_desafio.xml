@@ -15,7 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="16dp"
         android:text="Agregar Notas"
-        android:textColor="@color/orange"
+        android:textColor="#002AFF"
         android:textSize="24sp"/>
 
     <ImageView

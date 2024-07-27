@@ -38,7 +38,7 @@ class NotesAdapter(private var notes: List<Note>, private val context: Context) 
         holder.completedCheckbox.isChecked = note.isCompleted
 
         if (note.isCompleted) {
-            holder.itemView.setBackgroundColor(ContextCompat.getColor(context, R.color.light_gray)) // Color diferente para completado
+            holder.itemView.setBackgroundColor(ContextCompat.getColor(context, R.color.gray)) // Color diferente para completado
         } else {
             holder.itemView.setBackgroundColor(ContextCompat.getColor(context, R.color.white))
         }
